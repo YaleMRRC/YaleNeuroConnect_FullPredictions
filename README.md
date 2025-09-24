@@ -10,6 +10,7 @@ input files:
 How to run CPM:
 - Done in matlab
 - Run runCPM_allvars.m as a wrapper script that calls the function runCPM
+- Input data for CPM are stored here: {insert link to data}. Be sure to update relevant filepaths in runCPM_allvars.m accordingly!
 - This will save a predictions.mat file containing prediction strength from each permutation, a null distribution of predictions on shuffled data, and network masks for each permutation/cross-validation fold
 
 How to run other analyses used in the study and how to generate figures:
