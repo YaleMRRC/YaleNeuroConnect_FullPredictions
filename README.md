@@ -6,8 +6,8 @@ Required input files:
 - Connectivity matrices saved as a 3-dimensional variable (node x node x subject)
 - Behavioral data to model (subject x measure)
 - Confounds (subject x confound)
-/n
-  *These are all stored in '/CPM_input'. The connectivity matrices ('average_mats.mat') may need to be downloaded separately from the rest of the repository. The version downloaded with the repository's .zip file may not work due to the large size of this file.
+
+These are all stored in '/CPM_input'. The connectivity matrices ('average_mats.mat') may need to be downloaded separately from the rest of the repository. The version downloaded with the repository's .zip file may not work due to the large size of this file.
 
 How to run CPM:
 - CPM scripts are written in MATLAB
