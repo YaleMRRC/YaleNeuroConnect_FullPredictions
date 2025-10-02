@@ -18,3 +18,5 @@ How to run CPM:
 **How to run other analyses used in the study and how to generate figures:**
 - The jupyter notebook 'Figures_code.ipynb' will conduct all main analyses done in the study. Just run each cell sequentially.
 - Make sure that the filepaths load in the correct data. Dependency files (e.g., surface files) are included in this repository. The output data from CPM (network masks and prediction strength values) are stored in '/CPM_output' as 'symptom_predictions.mat' and 'cognitive_predictions.mat'. Be sure to update all relevant filepaths in the notebook accordingly!
+
+*Masks for positively and negatively predicting networks are provided in the 'Network masks' folder for measures that can be successfully modeled using CPM.
