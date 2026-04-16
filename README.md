@@ -20,3 +20,6 @@ How to run CPM:
 - Make sure that the filepaths load in the correct data. Dependency files (e.g., surface files) are included in this repository. The output data from CPM (network masks and prediction strength values) are stored in '/CPM_output' as 'symptom_predictions.mat' and 'cognitive_predictions.mat'. Be sure to update all relevant filepaths in the notebook accordingly!
 
 *Masks for positively and negatively predicting networks are provided in the 'Network masks' folder for measures that can be successfully modeled using CPM.
+
+How to run CPM on overlapping edges:
+- The modified CPM code for identifying edges in training data that are associated with clinical and cognitive measures is in the folder /CPM_code/Impingements/. Due to the large number of predictive models generated, these scripts were set up to be parallelized on a high performance cluster. In the script 'run_overlap_array.sbatch', the user specifies how many permutations and splits that will be run. This will then call the script 'run_cpm_overlap_hpc.py', which contains the modified CPM code. Finally, the script 'merge_jobs.m' will merge all of the permutations across the different splits.
